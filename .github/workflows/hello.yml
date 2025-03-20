@@ -8,6 +8,5 @@ jobs:
     steps:
       - run: echo "Hey World!!"
       - run: date
-      - run: curl https://www.yahoo.com  > test.txt
-      - run: wc -l test.txt
+      - run: curl https://www.yahoo.com  Åb wc -l
 
