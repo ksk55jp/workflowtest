@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: echo "Hey World!!"
       - run: date
-      - run: nc -v www.yahoo.com
+      - run: nc -v www.yahoo.com 80
